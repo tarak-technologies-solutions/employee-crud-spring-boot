@@ -2,10 +2,10 @@ spring:
   application:
     name: EMPLOYEE-SERVICE
   datasource:
-    url: jdbc:mysql://localhost:3306/employee
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: root
+    url: ${MySQL_HOST_URL}
+    driver-class-name: ${MySQL_DRIVER_CLASS}
+    username: ${MySQL_USERNAME}
+    password: ${MySQL_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
