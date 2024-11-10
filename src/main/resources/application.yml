@@ -3,7 +3,7 @@ spring:
     name: EMPLOYEE-SERVICE
   datasource:
     url: ${MySQL_HOST_URL}
-    driver-class-name: ${MySQL_DRIVER_CLASS}
+    driver-class-name: com.mysql.cj.jdbc.Driver
     username: ${MySQL_USERNAME}
     password: ${MySQL_PASSWORD}
   jpa:
