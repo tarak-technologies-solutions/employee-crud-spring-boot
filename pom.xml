@@ -29,6 +29,9 @@
 	</scm>
 	<properties>
 		<java.version>17</java.version>
+		<sonar.host.url>http://ec2-13-235-67-124.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Sonar@123456</sonar.password>
 	</properties>
 	<dependencies>
 		<dependency>
